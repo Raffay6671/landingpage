@@ -1,5 +1,5 @@
 const BASE_URL = "https://api.weatherapi.com/v1";
-const API_KEY = process.env.NEXT_PUBLIC_WEATHER_API_KEY; // Use your environment variable
+const API_KEY = process.env.NEXT_PUBLIC_WEATHER_API_KEY; // Use your environment variables
 
 // Function to fetch current weather
 export const fetchCurrentWeather = async (location: string) => {
